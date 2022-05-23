@@ -15,3 +15,16 @@ $.getJSON('https://raw.githubusercontent.com/J-E-M-International-Studios/Iconsse
             });
 
 ```
+
+
+## FontAwesome 6.1.1
+```js
+
+$.getJSON('https://raw.githubusercontent.com/J-E-M-International-Studios/Iconsset/main/fontawesom6.1.1.json', function (data) {
+                $('#target').iconpicker('setIconset', {
+                    iconClass: '',
+                    iconClassFix: '',
+                    icons: data,
+                });
+            });
+```
