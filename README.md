@@ -1,2 +1,5 @@
 # Iconsset
-Custom Icon set for https://github.com/victor-valencia/bootstrap-iconpicker 
+Custom Icon sets for https://github.com/victor-valencia/bootstrap-iconpicker 
+
+# Example 
+## FontAwesome 5.1.4
