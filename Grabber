@@ -1,0 +1,24 @@
+var names = new Set();
+var icons = document.getElementsByClassName('icon');
+for (const icon of icons) {
+  const name = icon.getElementsByTagName('dd')[0].innerText;
+  names.add("fab fa-" +name);
+}
+console.log(JSON.stringify(Array.from(names)));
+
+
+
+
+var names = new Set();
+var icons = document.getElementsByClassName('icon-wrap');
+for (const icon of icons) {
+    //console.log(icon);
+    //console.log(icon.getElementsByTagName('i')[0].className);
+    const name = icon.getElementsByTagName('i')[0].className.replace('fa-fw','');
+    names.add(name);
+}
+console.log(JSON.stringify(Array.from(names)));
+
+
+
+    const name = icon.getElementsByTagName('i')[0].className.replace('fa-fw','');
